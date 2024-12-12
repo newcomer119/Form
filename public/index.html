@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./images/cs.jpg" alt="Logo" class="logo"> <!-- Add the logo here -->
+        <h1>Python Workshop for CyberSecurity</h1>
+        <form id="entryForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobile">Mobile No:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="sapId">SAP ID:</label>
+            <input type="text" id="sapId" name="sapId" required>
+
+            <label for="semester">Semester:</label>
+            <input type="text" id="semester" name="semester" required>
+
+            <label for="reason">Reason to Join:</label>
+            <textarea id="reason" name="reason" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
